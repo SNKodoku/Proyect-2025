@@ -1,0 +1,35 @@
+.Enfasis{
+    color:red;
+    font-weight: bold;
+}
+.Contenedor{
+    width: 200px;
+    height: 300px;
+    background-color: darkkhaki;
+    color: blue;
+    border: 2px solid;
+}
+html{
+background-color: rgb(177, 131, 158);
+font-size: 30px;
+}
+img{
+width: 300px;
+height: 300px;
+}
+.escuela{
+background-color: aqua;
+color: aliceblue;
+width: 400px;
+}
+.word{
+color: crimson;
+font-size: 30px;
+font-style: italic;
+text-decoration: line-through;
+}
+.enlace{
+text-decoration: none;
+font-size: 40px;
+color: rgba(120, 0, 255, 0.1);
+}
