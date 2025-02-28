@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Document</title>
+    <link rel="stylesheet" href="/css/Style.css">
+</head>
+<body>
+    <h1>Mi formulario</h1>
+    <span>Este es un formulario en HTML</span>
+    <form action="#" method="post">
+        <label for="Name">Nombre:</label>
+        <input type="text" name="Nombre" id="Name" required>
+        <label for="Email">Correo:</label>
+        <input type="email" name="Correo" id="Email" required>
+        <label for="Pass">Password:</label>
+        <input type="Password" name="Pass" id="Pass">
+        <label for="Edad">Edad:</label>
+        <input type="Number" name="Edad" id="edad" min="0" max="10">
+        <label for="Fecha">Fecha:</label>
+        <input type="date" name="Fecha" id="Fecha">
+        <label for="Terminos">Acepto terminos y condiciones.</label>
+        <input type="checkbox" name="Terminos" id="Terminos">
+        <input type="hidden" name="Identificacion" value="id">
+        <input type="reset" value="Borrar informacion">
+        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
