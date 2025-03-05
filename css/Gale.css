@@ -1,0 +1,30 @@
+@import url();
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.Navbar{
+    background-color: red;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+}
+.Nav-list{
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+.Nav-list li{
+    display: inline-block;
+}
+.Nav-list a{
+    color: aqua;
+    text-decoration: none;
+
+}
+.Na-list a:hover{
+    color: gold;
+
+}
